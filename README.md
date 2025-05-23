@@ -11,3 +11,15 @@
 5. **Response Automation**: ดำเนินการตอบสนอง เช่น block IP, isolate host, แจ้งเตือน
 6. **Feedback & Continuous Learning**: นำผลลัพธ์จากการตอบสนองกลับมาเรียนรู้ปรับปรุงโมเดล
 7. **Monitoring & Management Interface**: ให้ผู้ดูแลสามารถติดตามและปรับแต่งนโยบายได้
+
+### โครงสร้างโปรเจกต์ปัจจุบัน
+โปรเจกต์ถูกแบ่งออกเป็นโมดูลต่าง ๆ ตามขั้นตอนการทำงานของระบบ ได้แก่:
+- `data_ingestion`
+- `data_processing`
+- `threat_detection`
+- `reasoning_engine`
+- `response_automation`
+- `feedback`
+- `monitoring`
+
+มีโฟลเดอร์ `tests` สำหรับเก็บชุดทดสอบ
